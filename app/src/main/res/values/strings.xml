@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyFirstAndroidApp</string>
+    <string name="textoHola">Hola</string>
+    <string name="escribirtDato">Escribe aquí tu dato</string>
+    <string name="button1">Button1</string>
+    <string name="button2">Button2</string>
+    <string name="textExample">This is my first Barista Test</string>
+
+</resources>
