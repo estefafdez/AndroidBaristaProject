@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/estefafdez/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.0.1/e1bb32b12b25e2f78e6786059ca7ea878f8345e0/support-annotations-26.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e1bb32b12b25e2f78e6786059ca7ea878f8345e0">
+        <dex dex="/Volumes/Seguridad/ProyectosAndroid/AndroidBaristaProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.1_a19606389e5efa4c642d12b41c56ab7a409adbed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/estefafdez/.android/build-cache/7eea999b3cb92f39fbb70f821fef64cf580ed7ca/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="22c673e65215e0764add61e3102946de895439e4">
+        <dex dex="/Volumes/Seguridad/ProyectosAndroid/AndroidBaristaProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d93e048009b43eb9dc574727134d879cf76df911/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/estefafdez/.android/build-cache/71e70e52f965e46c124903e7cb91a3c27f1b75f0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e7424f816f538c2acfba6169b25e297ea22afbd8">
+        <dex dex="/Volumes/Seguridad/ProyectosAndroid/AndroidBaristaProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9165db9ee1e777267654c882655a84dcc8fa0c47/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/estefafdez/.android/build-cache/bc21984b42ac421396d7aef9269f02d9553c1233/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="71af915b7f4f7ec0b5f768b365145bb6a5cb9a66">
+        <dex dex="/Volumes/Seguridad/ProyectosAndroid/AndroidBaristaProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e2e6ba5d7a591962811a666a33d0b5c0e9933d98/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/estefafdez/.android/build-cache/fc0ace3d691ba987e0bd8940650854f4de98e146/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d095503f29a8dedc55b9326ed97a5902a1527ab9">
+        <dex dex="/Volumes/Seguridad/ProyectosAndroid/AndroidBaristaProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_00dd05dc48d83c8e7112927a4f366bf0cceecec4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/estefafdez/.android/build-cache/1410bda483b0a7ebd552bf74d8304a313eb432ea/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="681eeeaec5300e5257ad9bf889c3859ba3833d5a">
+        <dex dex="/Volumes/Seguridad/ProyectosAndroid/AndroidBaristaProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f9bc4d49ed2f8477a9f84332d27e5350b42d7883/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/estefafdez/.android/build-cache/aa0653e5ca5d32c8718a43911e138a31ee844192/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="083e7bc5a9d9404b49b8f34e5091532361fa28e6">
+        <dex dex="/Volumes/Seguridad/ProyectosAndroid/AndroidBaristaProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bdcb93c3c62c9ec2fca63178ce1178d8af698ae5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Seguridad/ProyectosAndroid/AndroidBaristaProject/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="928d225c4008c7cf03c9257372704afa36dec3e7">
+        <dex dex="/Volumes/Seguridad/ProyectosAndroid/AndroidBaristaProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_130d131253af1bc755e0e676566f77de67d25421/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/estefafdez/.android/build-cache/4b0d1c87a257d39bded620f90060b63b3ff892e3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a4590fa7eadce322ca893129fdc999074e1aa5bf">
+        <dex dex="/Volumes/Seguridad/ProyectosAndroid/AndroidBaristaProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_447ed057db97fa6c4c4ae1ec2e74666d278e883f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/estefafdez/.android/build-cache/9e711118a407946d9689656c14d869c0e6303d4d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dff4d8f88fe2c0e57306e6981fd9b90caeead7e3">
+        <dex dex="/Volumes/Seguridad/ProyectosAndroid/AndroidBaristaProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_99cf8671fc131b21a387110a0f394356792c8eab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/Seguridad/ProyectosAndroid/AndroidBaristaProject/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Volumes/Seguridad/ProyectosAndroid/AndroidBaristaProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_00981a58644d78ebe0d6aa1dc925cbb7d4161234/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/estefafdez/.android/build-cache/272ef2c8018e88ffdacb57d2275d5eeec6c9230e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Volumes/Seguridad/ProyectosAndroid/AndroidBaristaProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_411f8380a66b39a8af02a9b346ec6fdd08394b27/classes.dex" />
+    </item>
+
+</items>

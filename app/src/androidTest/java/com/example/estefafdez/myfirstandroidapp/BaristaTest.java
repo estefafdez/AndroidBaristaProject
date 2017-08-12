@@ -14,7 +14,7 @@ import org.junit.rules.TestName;
 
 
 /**
- * Created by estefafdez on 11/8/17.
+ * Created by estefafdez
  */
 
 public class BaristaTest {
@@ -38,7 +38,7 @@ public class BaristaTest {
     @Test
     public void testTextoIsDisplayed(){
         BaristaAssertions.assertDisplayed(R.id.texto);
-        Log.i("Info", "The element texto is displayed.");
+        Log.i("Info", "The element text is displayed.");
     }
 
     @Test

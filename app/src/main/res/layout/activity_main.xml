@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/texto"
-        android:text="@string/textoHola"
+        android:text="@string/hiText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -17,7 +17,7 @@
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/escribirtDato"/>
+        android:hint="@string/writeSomething"/>
 
     <Button
         android:id="@+id/button1"
@@ -28,6 +28,12 @@
     <Button
         android:id="@+id/button2"
         android:text="@string/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button3"
+        android:text="@string/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

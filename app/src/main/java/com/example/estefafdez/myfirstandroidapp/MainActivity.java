@@ -6,14 +6,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     //Declaramos las variables.
-    TextView texto;
+    TextView text;
     EditText editText;
-    Button boton1;
-    Button boton2;
+    Button button1;
+    Button button2;
+    Button button3;
 
 
     @Override
@@ -21,26 +23,30 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        texto = (TextView) findViewById(R.id.texto);
+        text = (TextView) findViewById(R.id.texto);
         editText = (EditText) findViewById(R.id.editText);
-        boton1 = (Button) findViewById(R.id.button1);
-        boton2 = (Button) findViewById(R.id.button2);
+        button1 = (Button) findViewById(R.id.button1);
+        button2 = (Button) findViewById(R.id.button2);
+        button3 = (Button) findViewById(R.id.button3);
 
-        boton1.setOnClickListener(this);
-        boton2.setOnClickListener(this);
+        button1.setOnClickListener(this);
+        button2.setOnClickListener(this);
+        button3.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.button1:
-                String dato = editText.getText().toString();
-                texto.setText(dato);
+                String data = editText.getText().toString();
+                text.setText(data);
                 break;
             case R.id.button2:
-                texto.setText("Botón2!!!");
+                text.setText("This is the button 2!!!");
                 break;
-
+            case R.id.button3:
+                Toast.makeText(getApplicationContext(), R.string.toastText, Toast.LENGTH_SHORT).show();
+                break;
         }
 
     }
