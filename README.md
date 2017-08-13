@@ -17,22 +17,25 @@ _______________________________________
 
 ## 2. Import the project. 
 
-To import the project, open Android Studio and select Open an existing Android Studio project. Then choose the directory where this project is and click on Accept. 
+To import the project, open Android Studio and select Open an existing Android Studio project. 
+Then choose the directory where the project is and click on Accept. 
 
 _______________________________________
 
 ## 3. Run the Barista Tests. 
 
-This project is a simple Android application with a TextView, an EditView and Two buttons. The logic is very simple and the tests included on the project are also very simples, just for you to start using Barista on your Android Project. 
+This project is a simple Android application with a TextView, an EditView, several buttons and some other simples features on Android (such as Toast). 
 
-The Tests examples are located on the AndroidTest directory, on the class BaristaTest. 
+The logic is very simple and the tests included on the project are also very simples, just for you to start using Barista on your Android Project. 
 
-There are 4 test on the project, you can run all of them by run the entire BaristaTest class or you can you each test by clicking on the testName and click on Run testName. 
+The Tests examples are located on the AndroidTest directory, on the BaristaTest class. 
+
+There are 4 test on the project, you can run all of them by run the entire BaristaTest class or you can run each test by clicking on the testName and click on Run testName. 
 
 _______________________________________
 
 ## 4. Barista Information.
 
-You can find all the Barista Information here: https://github.com/SchibstedSpain/Barista
+You can find all the information about Barista here: https://github.com/SchibstedSpain/Barista
 
 
