@@ -4,6 +4,7 @@ import android.util.Log;
 import com.schibsted.spain.barista.BaristaAssertions;
 import com.schibsted.spain.barista.BaristaClickActions;
 import com.schibsted.spain.barista.BaristaEditTextActions;
+import com.schibsted.spain.barista.BaristaNavigationDrawerActions;
 import com.schibsted.spain.barista.BaristaRule;
 
 import org.junit.After;
@@ -65,4 +66,27 @@ public class BaristaTest {
         BaristaAssertions.assertDisplayed(R.string.textExample);
     }
 
+    @Test
+    public void checkSecondActivityImages(){
+        Log.i("Info", "Click on the Click Here button");
+        BaristaClickActions.click(R.id.buttonActivity);
+        Log.i("Info", "Check the Android Img on the new activity");
+        BaristaAssertions.assertDisplayed(R.id.android_img);
+        Log.i("Info", "Check the Barista Img on the new activity");
+        BaristaAssertions.assertDisplayed(R.id.barista_img);
+        Log.i("Info", "Return to the Main Activity");
+        BaristaClickActions.clickBack();
+    }
+
+    @Test
+    public void checkSecondActivityTexts(){
+        Log.i("Info", "Click on the Click Here button");
+        BaristaClickActions.click(R.id.buttonActivity);
+        Log.i("Info", "Check the Android text on the new activity");
+        BaristaAssertions.assertDisplayed(R.id.androidText);
+        Log.i("Info", "Check the Barista text on the new activity");
+        BaristaAssertions.assertDisplayed(R.id.baristaText);
+        Log.i("Info", "Return to the Main Activity");
+        BaristaClickActions.clickBack();
+    }
 }

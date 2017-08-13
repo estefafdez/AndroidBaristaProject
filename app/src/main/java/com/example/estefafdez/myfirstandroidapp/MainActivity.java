@@ -1,5 +1,6 @@
 package com.example.estefafdez.myfirstandroidapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button button1;
     Button button2;
     Button button3;
+    Button buttonActivity;
 
 
     @Override
@@ -28,10 +30,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         button1 = (Button) findViewById(R.id.button1);
         button2 = (Button) findViewById(R.id.button2);
         button3 = (Button) findViewById(R.id.button3);
+        buttonActivity = (Button) findViewById(R.id.buttonActivity);
 
         button1.setOnClickListener(this);
         button2.setOnClickListener(this);
         button3.setOnClickListener(this);
+        buttonActivity.setOnClickListener(this);
     }
 
     @Override
@@ -46,6 +50,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.button3:
                 Toast.makeText(getApplicationContext(), R.string.toastText, Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.buttonActivity:
+                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                startActivity(intent);
                 break;
         }
 
