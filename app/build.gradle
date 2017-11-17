@@ -15,7 +15,7 @@ android {
         }
     }
     compileSdkVersion 26
-    buildToolsVersion "26.0.1"
+    buildToolsVersion '26.0.2'
     defaultConfig {
         applicationId "com.example.estefafdez.myfirstandroidapp"
         minSdkVersion 15
@@ -37,14 +37,19 @@ android {
             applicationIdSuffix ".debug"
         }
     }
+
+    flavorDimensions "flavorA", "flavorB"
+
     productFlavors {
         def env = System.getenv();
 
         flavorA {
+            dimension "flavorA"
             versionCode 10
             versionName "1.0.0 (#" + env['BUILD_NUMBER']+")";
         }
         flavorB {
+            dimension "flavorB"
             versionCode 20
             versionName "1.0.1 (#" + env['BUILD_NUMBER']+")";
         }
