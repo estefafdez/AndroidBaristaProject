@@ -36,6 +36,8 @@ _______________________________________
 
 ## 4. Barista Information.
 
-You can find all the information about Barista here: https://github.com/SchibstedSpain/Barista
+You can find all the information about Barista here:
+
+https://github.com/SchibstedSpain/Barista
 
 

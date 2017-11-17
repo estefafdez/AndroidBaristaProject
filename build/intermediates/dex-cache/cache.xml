@@ -2,22 +2,337 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Volumes/Seguridad/ProyectosAndroid/AndroidBaristaProject/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/emunoz/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="e8e1e7d5c2b4482dda0e5ce2cf3e24e14af71ec9">
-        <dex dex="/Volumes/Seguridad/ProyectosAndroid/AndroidBaristaProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_130d131253af1bc755e0e676566f77de67d25421/classes.dex" />
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/androidTest/flavorA/debug/javax.inject-1_85f5cc4dd113b60e07a8e21ff9e7a073b5e9967b.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/Seguridad/ProyectosAndroid/AndroidBaristaProject/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/emunoz/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Volumes/Seguridad/ProyectosAndroid/AndroidBaristaProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_00981a58644d78ebe0d6aa1dc925cbb7d4161234/classes.dex" />
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/androidTest/flavorA/debug/hamcrest-core-1.3_d9c097120aad0d4594ec1a094fa4bea93fa45d34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/1a1444ddf7c153765610d701d4fbe6311eb64fb3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/emunoz/Downloads/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/debug/classes_dcf308fc6f4c3143c79a42f258824b858ac87a44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Users/emunoz/Downloads/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/debug/common-1.0.0_536146c88fc030227f10fd79f34887f4ba5a2174.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/6c6a69765c4b13874871fc643389948ef8d3619a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/emunoz/Downloads/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/debug/classes_dc90e1f334ff488f46df3616f6bc2a6f7c87dec1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Users/emunoz/Downloads/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/debug/common-1.0.0_79b9f097048c6ca0b4946d118f602994ca661183.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/47ab3c128440b7e3034b5f145bd600bbe78e951c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e1d76e48861ba2f6533284541e6a741391e16771">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/androidTest/flavorA/debug/classes_f8aba928209d5480e23358ccb18f38a57e6f4a1a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/79aac6cb812fe82b45c5e20387ff5eca4f2e8904/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7045152f3bd1870740b9bcb1cddff495e189774e">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/release/classes_9a15f20868010b6593ffa4c91599b004cdbf081d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.gradle/caches/modules-2/files-2.1/com.google.android.apps.common.testing.accessibility.framework/accessibility-test-framework/2.0/7837f95bdff9f797003454247fef02b78d49ae75/accessibility-test-framework-2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7837f95bdff9f797003454247fef02b78d49ae75">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/androidTest/flavorA/debug/accessibility-test-framework-2.0_a1043e99c2b9ff20b5cae51a0a37c6558c13e2e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/defc2ee4e56eef2ff20cb18c00aafd9c7d960dfc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a9b61fd09b999be85b54dba1d34c7f6c1d471913">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/androidTest/flavorA/debug/classes_696a4a8942055c56035ac82745469711dcd52f0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/be84a7933e295889a66ecb39e8e91cb0db85e9db/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="461929440e66685425a298693507f6fb27b0a872">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/release/classes_920a45cb548e026a194375fbb7fb64d64d44bc01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/48f3da287e21916d5ffffea7639eea304b73b65b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="/Users/emunoz/Downloads/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/debug/classes_ddb168c21cac366b4a5070ced5d3768cb0011abe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.1.1/67ff45d9ae02e583d0f9b3432a5ebbe05c30c966/javawriter-2.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/androidTest/flavorA/debug/javawriter-2.1.1_bfa2368613d2ca4771cb5786fbfaf78d84d53f34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/Users/emunoz/Downloads/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/debug/support-annotations-26.1.0_f47835eebdd2e36b7c9c5c3dace8cc659a34db2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/4eea62705b485b656cbb9f0fe2c3b56994756457/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
+        <dex dex="/Users/emunoz/Downloads/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/debug/classes_24c989aa2d349aaf9acc3dea60e15a4d5a4af3fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/89dd5eeecc866276b15564330f7096c0db2a74a4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="204f607419af8247cc1b2a61f50663c65f841c12">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/release/classes_88764cb2bbc79d07fa7390f325a352d4f5286ade.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/cb5b0575f41479aab5a07a7f73c71d2bdd832feb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ce0bbcc11fdebdde207c0b5af4154313b53eb74d">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/androidTest/flavorA/debug/classes_dc609c8d3ab917939f536ea67e6a761e6bdb63ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/androidTest/flavorA/debug/junit-4.12_9490b9027171236c2cb48a73a0149376ca4e39b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/ea0cdd7c0c799d609a4d43ef4d2c71678824fe90/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/emunoz/Downloads/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/debug/classes_75234721bba58308ee5869ff843856ffa67ffac3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/61cd3366571dc92dc17151352db3bd3e41a7f1cd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="04f27b4b5266b34715ae3f74a890a0380eb2849f">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/androidTest/flavorA/debug/classes_adec71703bf12a652ca39241e67b5bfda2ba5250.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/1857a40c111096da3574dcd69dc4ab36c2c2eb09/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f01dd5c928128392fdedd64cb10b0b780a02ca6c">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/androidTest/flavorA/debug/classes_f063d72bcab53b0e171f7c337dc6840594f368e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-integration/1.3/5de0c73fef18917cd85d0ab70bb23818685e4dfd/hamcrest-integration-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/androidTest/flavorA/debug/hamcrest-integration-1.3_8c4d9721b2b822f6d547e48c97de4c39a6fc9949.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/37382c11f7e9d88b672effacddfcddb402763f94/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/Users/emunoz/Downloads/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/debug/classes_de250ca714077fecc66a55438a6d94e862e4aa3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/0964fc6a900278ea820b53462589dca1b3198963/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d9ebd18603c0013727799e7ed41bcb42f3df75c0">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/androidTest/flavorA/debug/classes_a5c75ae51d5eb7026ba2eef25307ef10225a3127.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/f720cfa6ef923bc2818a06930d4137263073c58c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/emunoz/Downloads/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/debug/classes_19c06e6df5b6ee771425e745dd520c449f8a98aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/28725eb81e57a86073a3cd3588dc3b08cd715694/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/emunoz/Downloads/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/debug/classes_f68c4233ff7eb79631e54e5757287f6747db33da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/8b2c53906c096f178fd6a31802622e2ad1135841/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
+        <dex dex="/Users/emunoz/Downloads/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/debug/classes_5ca857dd828703c336ea8d71b35e4c4dd9bab3c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/c4d57ebb11ddc73aff4f4f4c0b8a1ca1439701cf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b7c3356ac054fb47f7b8ff90c2fb68531308eb00">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/androidTest/flavorA/debug/classes_60268b995dc1ef6e33fdcbd73da917db21cb84cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/4c7f4536c452969120d1564c6f0fe4544bb2bc2d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="/Users/emunoz/Downloads/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/debug/classes_02c2649bf530728533428c5c3cd25c8191bb4fce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/androidTest/flavorA/debug/hamcrest-library-1.3_c51384c8ddceaa740f49be341d7e024b75c9d305.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ccbc77a5fd907ef863c29f3596c6f54ffa4e9442">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/androidTest/flavorA/debug/kxml2-2.3.0_7bbb7a9f85c3645a04bf238565f550284e5daff2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/86c7b6a602556e62d03546da0666b5ef42b26614/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/emunoz/Downloads/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/debug/classes_3118cc6c201c691006dcbc1687c031325d6782db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/927e4da5ee604aa5f9d4480737a072240da3c81c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="005d20a198159b87f65812fc5c51b2d84c5eba0a">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/release/classes_fef2996f8052134e3470ccc524647b1056468b8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/androidTest/flavorA/debug/jsr305-2.0.1_50acf99b9ea10cffb6372592deb6be0419e4ac5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/a8bcaa6b160819b4da420e1d034a2d141e6bfff5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="/Users/emunoz/Downloads/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/debug/classes_15b2be23ef2c5eab3ead7d285bffc7e3ecb155ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/7993263f83cd75b6c1a8371b6a2403edca700ed1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/emunoz/Downloads/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/debug/classes_e4c88f7a7c67f9ebe9c9fbc7585a44807c5ea654.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/emunoz/.android/build-cache/6a4f26a993c0746188b064d3d536659330951ca5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="646439081688c43e04ec4aa7ba6915ddfdcc337f">
+        <dex dex="/Volumes/Seguridad/ProyectosQA/AndroidBaristaProject/app/build/intermediates/pre-dexed/flavorA/release/classes_8b817691e9cdc8d95bcc95118a454af1d8ca30f8.jar" />
     </item>
 
 </items>
