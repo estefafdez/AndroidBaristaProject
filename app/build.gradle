@@ -7,19 +7,25 @@ repositories {
 
 android {
     signingConfigs {
-        release {
-            storeFile file("./keystore/pruebaJenkins.jks")
+        preproduction {
+            storeFile file('/Users/estefafdez/keystone/KeyStore.jks')
             storePassword "123456"
-            keyAlias "Prueba"
+            keyAlias "estefafdez"
+            keyPassword "123456"
+        }
+        release {
+            storeFile file('/Users/estefafdez/keystone/KeyStore.jks')
+            storePassword "123456"
+            keyAlias "estefafdez"
             keyPassword "123456"
         }
     }
-    compileSdkVersion 26
-    buildToolsVersion '26.0.2'
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
     defaultConfig {
         applicationId "com.example.estefafdez.myfirstandroidapp"
         minSdkVersion 15
-        targetSdkVersion 26
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -29,46 +35,61 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.release
+            debuggable false
+            jniDebuggable false
+            renderscriptDebuggable false
         }
         preproduction {
             applicationIdSuffix ".test"
+            debuggable true
+            jniDebuggable false
+            signingConfig signingConfigs.preproduction
+            minifyEnabled false
         }
         debug {
             applicationIdSuffix ".debug"
+            debuggable true
+            jniDebuggable false
+            renderscriptDebuggable false
         }
     }
 
-    flavorDimensions "flavorA", "flavorB"
+    flavorDimensions "flavor"
 
     productFlavors {
-        def env = System.getenv();
-
+        def jenkinsBuildNumber = System.getenv('BUILD_NUMBER') ?: "Local"
         flavorA {
-            dimension "flavorA"
-            versionCode 10
-            versionName "1.0.0 (#" + env['BUILD_NUMBER']+")";
+            dimension "flavor"
+            versionName 'flavorA'
+            minSdkVersion 15
+            applicationId 'com.example.estefafdez.myfirstandroidapp.flavorA'
+            targetSdkVersion 27
+            testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
         }
         flavorB {
-            dimension "flavorB"
-            versionCode 20
-            versionName "1.0.1 (#" + env['BUILD_NUMBER']+")";
+            dimension "flavor"
+            versionName 'flavorB'
+            minSdkVersion 15
+            applicationId 'com.example.estefafdez.myfirstandroidapp.flavorB'
+            targetSdkVersion 27
+            testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
         }
     }
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    androidTestCompile('com.schibsted.spain:barista:1.6.0') {
+    androidTestImplementation('com.schibsted.spain:barista:1.6.0') {
         exclude group: 'com.android.support'
     }
-    compile 'com.android.support:appcompat-v7:26.+'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.android.support:design:26.+'
-    compile('com.crashlytics.sdk.android:crashlytics:2.6.8@aar') {
+    implementation 'com.android.support:appcompat-v7:27.+'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:design:27.+'
+    implementation('com.crashlytics.sdk.android:crashlytics:2.6.8@aar') {
         transitive = true;
     }
-    testCompile 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.12'
 }
