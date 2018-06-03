@@ -3,9 +3,13 @@ apply plugin: 'io.fabric'
 
 repositories {
     maven { url 'https://maven.fabric.io/public' }
+    maven { url "https://maven.google.com" }
 }
 
 android {
+
+    def appname = "AndroidBarista"
+
     signingConfigs {
         preproduction {
             storeFile file('/Users/estefafdez/keystone/KeyStore.jks')
@@ -58,21 +62,58 @@ android {
 
     productFlavors {
         def jenkinsBuildNumber = System.getenv('BUILD_NUMBER') ?: "Local"
+
         flavorA {
             dimension "flavor"
             versionName 'flavorA'
             minSdkVersion 15
-            applicationId 'com.example.estefafdez.myfirstandroidapp.flavorA'
+            applicationId 'com.example.estefafdez.myfirstandroidapp'
             targetSdkVersion 27
+            versionCode 1
+            versionName "1.0.0(#" + jenkinsBuildNumber + ")"
             testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
         }
         flavorB {
             dimension "flavor"
             versionName 'flavorB'
             minSdkVersion 15
-            applicationId 'com.example.estefafdez.myfirstandroidapp.flavorB'
+            applicationId 'com.example.estefafdez.myfirstandroidapp'
             targetSdkVersion 27
+            versionCode 2
+            versionName "2.0.0(#" + jenkinsBuildNumber + ")"
             testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+        }
+    }
+
+    applicationVariants.all { variant ->
+        def varName = variant.name.capitalize()
+
+        def copyAndRenameTask = tasks.create(name: "copyAPK${varName}", type: Copy) {
+
+            def apkFinalName = appname.toLowerCase() + "_" + variant.getProperties().get("flavorName") + "_" + variant.getBuildType().name + "_"+ variant.versionName + ".apk"
+
+            def apkName = "app-${variant.getProperties().get("flavorName")}-${variant.buildType.name.toString()}.apk"
+
+            def destDir = new File(rootDir.path + File.separator + 'apk')
+
+            if (destDir.exists()) {
+                destDir.delete()
+            }
+
+            destDir.mkdirs()
+
+            from 'build/outputs/apk/' + variant.getProperties().get("flavorName") + "/" + variant.buildType.name
+
+            into destDir
+                include '*.apk'
+
+            rename { String fileName ->
+                fileName.replace(apkName, apkFinalName)
+            }
+        }
+
+        variant.assemble.finalizedBy {
+            copyAndRenameTask
         }
     }
 }
@@ -82,7 +123,7 @@ dependencies {
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    androidTestImplementation('com.schibsted.spain:barista:1.6.0') {
+    androidTestImplementation('com.schibsted.spain:barista:2.4.0') {
         exclude group: 'com.android.support'
     }
     implementation 'com.android.support:appcompat-v7:27.+'

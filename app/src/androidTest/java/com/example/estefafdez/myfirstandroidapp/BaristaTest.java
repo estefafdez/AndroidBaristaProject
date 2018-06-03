@@ -1,19 +1,6 @@
 package com.example.estefafdez.myfirstandroidapp;
 import android.util.Log;
 
-import com.schibsted.spain.barista.BaristaAssertions;
-import com.schibsted.spain.barista.BaristaClickActions;
-import com.schibsted.spain.barista.BaristaEditTextActions;
-import com.schibsted.spain.barista.BaristaNavigationDrawerActions;
-import com.schibsted.spain.barista.BaristaRule;
-
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Rule;
-import org.junit.Test;
-import org.junit.rules.TestName;
-
-
 /**
  * Created by estefafdez
  * Test Class using Barista.
