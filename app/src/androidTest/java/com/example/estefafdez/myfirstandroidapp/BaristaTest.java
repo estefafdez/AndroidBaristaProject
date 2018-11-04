@@ -1,5 +1,9 @@
 package com.example.estefafdez.myfirstandroidapp;
 import android.util.Log;
+import com.schibsted.spain.barista.assertion.BaristaVisibilityAssertions;
+import com.schibsted.spain.barista.interaction.BaristaClickInteractions;
+import com.schibsted.spain.barista.interaction.BaristaEditTextInteractions;
+import com.schibsted.spain.barista.rule.BaristaRule;
 
 import org.junit.After;
 import org.junit.Before;
@@ -7,21 +11,16 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TestName;
 
-import com.schibsted.spain.barista.assertion.BaristaVisibilityAssertions;
-import com.schibsted.spain.barista.interaction.BaristaClickInteractions;
-import com.schibsted.spain.barista.interaction.BaristaEditTextInteractions;
-import com.schibsted.spain.barista.rule.BaristaRule;
-
 
 /**
  * Created by estefafdez
- * Test Class using Barista.
  */
 
 public class BaristaTest {
 
     @Rule
     public BaristaRule<MainActivity> baristaRule = BaristaRule.create(MainActivity.class);
+    public @Rule
     TestName name = new TestName();
 
     @Before
@@ -29,7 +28,6 @@ public class BaristaTest {
         Log.i("Info","[START] - Launch Test: " + name.getMethodName());
         baristaRule.launchActivity();
     }
-
     @After
     public void tearDown(){
         Log.i("Info", "[FINISH] - Test: " + name.getMethodName());
@@ -90,4 +88,3 @@ public class BaristaTest {
         BaristaClickInteractions.clickBack();
     }
 }
-
