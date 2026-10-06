@@ -41,21 +41,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()){
-            case R.id.button1:
-                String data = editText.getText().toString();
-                text.setText(data);
-                break;
-            case R.id.button2:
-                text.setText("This is the button 2!!!");
-                break;
-            case R.id.button3:
-                Toast.makeText(getApplicationContext(), R.string.toastText, Toast.LENGTH_SHORT).show();
-                break;
-            case R.id.buttonActivity:
-                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-                startActivity(intent);
-                break;
+        int id = view.getId();
+        if (id == R.id.button1) {
+            String data = editText.getText().toString();
+            text.setText(data);
+        } else if (id == R.id.button2) {
+            text.setText("This is the button 2!!!");
+        } else if (id == R.id.button3) {
+            Toast.makeText(getApplicationContext(), R.string.toastText, Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.buttonActivity) {
+            Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+            startActivity(intent);
         }
     }
 }
