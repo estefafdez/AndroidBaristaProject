@@ -1,9 +1,9 @@
 package com.example.estefafdez.myfirstandroidapp;
 import android.util.Log;
-import com.schibsted.spain.barista.assertion.BaristaVisibilityAssertions;
-import com.schibsted.spain.barista.interaction.BaristaClickInteractions;
-import com.schibsted.spain.barista.interaction.BaristaEditTextInteractions;
-import com.schibsted.spain.barista.rule.BaristaRule;
+import com.adevinta.android.barista.assertion.BaristaVisibilityAssertions;
+import com.adevinta.android.barista.interaction.BaristaClickInteractions;
+import com.adevinta.android.barista.interaction.BaristaEditTextInteractions;
+import com.adevinta.android.barista.rule.BaristaRule;
 
 import org.junit.After;
 import org.junit.Before;
